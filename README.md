@@ -1,11 +1,13 @@
 # How to start use Git and GitHub guide for Mac users
 *Hi everyone!*  
 This file I'll try to make a mini-guide how to use Git and GitHub (due to this is some like hometask and practice)  
-Git - is a tool for control all changes of your project. Instead of having plenty of files like "doc1_v1", "doc2_v2" you allow to have only last version, meanwhile git have info about all of changes which have been made by you and other programmes. So, let's start...
-## Begining   
+Git - is a tool for control all changes of your project. Instead of having plenty of files like "doc1_v1", "doc2_v2" you allow to have only last version, meanwhile git have info about all of changes which have been made by you and other programmes. So, let's start...  
+Best Git tutorial for Russian speakers - [link](https://practicum.yandex.ru/trainer/git-basics/lesson/c6b9607c-e8bc-4446-89f9-c74522c3492f/)
+Markdown tips (md) - [link](https://www.markdownguide.org/cheat-sheet/)
+
+## Begining  
 Firstly, you will have to open terminal (*cmd* + *space* and then type "terminal")  
 In the programm you can create files, change directory like on the desktop, howevere there is no GUI, instead u can do much more functions, in way you now special commands.  
----
 __*There are fist TERMINAL commands you need at start:*__
 * **pwd** (print working directory) demonstrane name of current folder
 * **ls** (list) - showing list of files/forlders of current folder
