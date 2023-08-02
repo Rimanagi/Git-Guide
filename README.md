@@ -2,11 +2,11 @@
 *He everyone!*  
 This file I'll try to make a mini-guide how to use Git and GitHub (due to this is some like hometask and practice)  
 Git - is a tool for control all changes of your project. Instead of having plenty of files like "doc1_v1", "doc2_v2" you allow to have only last version, meanwhile git have info about all of changes which have been made by you and other programmes. So, let's start...
-# **Begining**  
-Firstly, you will have to open terminal (cmd + space and then type "termilal")  
+## Begining  
+Firstly, you will have to open terminal (*cmd* + *space* and then type "termilal")  
 In the programm you can create files, change directory like on the desktop, howevere there is no GUI, instead u can do much more functions, in way you now special commands.  
 ---
-__*There are fist terminal cammands you need at start:*__
+__*There are fist TERMINAL cammands you need at start:*__
 * **pwd** (print working directory) demonstrane name of current folder
 * **ls** (list) - showing list of files/forlders of current folder
 * **cd** (change direction); cd~ - change direction to the home folder of user
@@ -16,7 +16,7 @@ __*There are fist terminal cammands you need at start:*__
 * **rm -r** -remove something + *r*ecursive (usually usus for non empty folders)
 * **rmdir** - remove direction (folder)
 * **clear** - clearing terminal
-* ***history** - show you history of your commands
+* **history** - show you history of your commands
 * **less** "filename" - demostrate content of  file (only text format)
 * **nano** "filename" - we open *filename* file and it's possible to change it inside terminal window (don't forget to save it)
 * **cp** "filename" "directory" - copying file in another *directory*
@@ -35,8 +35,8 @@ _*Git commands:*_
 - **git remote add** origin "repository_link" - The command needs to pass two parameters: the name of the remote repository and its URL. Use the word origin as the name. And you copied the URL from the page of the remote repository.
 ---
 Creating SSH-key:
-* **ssh-keygen** -t ed25519 "your_mail_in_github@mail.com" - creating public and private key by using programm shh
-* **ssh-keygen** -t rsa -b 4096 "your_mail_in_github@mail.com" - creating public and private key by using algorithm rsa
+* **ssh-keygen -t ed25519** "your_mail_in_github@mail.com" - creating public and private key by using programm shh
+* **ssh-keygen -t rsa -b 4096** "your_mail_in_github@mail.com" - creating public and private key by using algorithm rsa
 ---
 **GUIDE:**
 all points u must to do in terminal
