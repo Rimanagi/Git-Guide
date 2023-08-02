@@ -1,15 +1,12 @@
 # How to start use Git and GitHub guide for Mac users
-*He everyone!*
-This file I'll try to make a mini-guide how to use Git and GitHub (due to this is some like hometask and practice)
-
-
+*He everyone!*  
+This file I'll try to make a mini-guide how to use Git and GitHub (due to this is some like hometask and practice)  
 Git - is a tool for control all changes of your project. Instead of having plenty of files like "doc1_v1", "doc2_v2" you allow to have only last version, meanwhile git have info about all of changes which have been made by you and other programmes. So, let's start...
----
-# ***Begining***
+# **Begining**
 Firstly, you will have to open termil (*cmd* + *space* and then type "termilal")
 In the programm you can do create files, change directory like on the desktop, howevere there is no GUI, insted u can do much more functions, in way you now special commands.
 ---
-_*There are fist terminal cammands you need at start:*_
+__*There are fist terminal cammands you need at start:*__
 * pwd (print working directory) demonstrane name of current folder
 * ls (list) - showing list of files/forlders of current folder
 * cd (change direction); cd~ - change direction to the home folder of user
@@ -48,10 +45,10 @@ all points u must to do in terminal
 3. Add and commit it
 4. Create new repository in your GitHub profile
 5. Now create public and private ssh or rsa keys, they are located in /~/.ssh by default
-6. Conncect SSH key to your repository 
-    Create SSH key in GitHub settings
-    copy all you have from public key /~/.ssh/ sshkey.pub
+6. Conncect SSH key to your repository  
+    <dr>Copy all you have from public key /~/.ssh/ sshkey.pub  
+    <dr>Create SSH key in GitHub settings by pasting info from public key  
 
 6. Connect your local repository with yout GitHub repository
 7. Sync local and GitHub repositories by pushing your local commit (git push -u origin master) -  говорим, чтобы терминал запомнил, что надо отправлять на сервер ориджин в ветку master  
-8. Check what u have same files in web repository
+8. Check what u have same files in web
