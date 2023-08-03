@@ -16,6 +16,7 @@ __*There are fist TERMINAL commands you need at start:*__
 * **mkdir** - make a new direction (folder)
 * **rm** - remove file
 * **rm -r** -remove something + *r*ecursive (usually usus for non empty folders)
+* **rm -rf .git** - deleting git folder if something went wrong. -r - recursively (for deleting all content in folder); - force(u will spik windows like "are u sure u would like to delete this file")
 * **rmdir** - remove direction (folder)
 * **clear** - clearing terminal
 * **history** - show you history of your commands
@@ -55,4 +56,4 @@ all points u must to do in terminal
 
 6. Connect your local repository with yout GitHub repository
 7. Sync local and GitHub repositories by pushing your local commit (git push -u origin master) -  говорим, чтобы терминал запомнил, что надо отправлять на сервер ориджин в ветку master  
-8. Check what u have same files in web
+8. Check that u have same files in web
