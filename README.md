@@ -2,7 +2,11 @@
 *Hi everyone!*  
 This file I'll try to make a mini-guide how to use Git and GitHub (due to this is some like hometask and practice)  
 Git - is a tool for control all changes of your project. Instead of having plenty of files like "doc1_v1", "doc2_v2" you allow to have only last version, meanwhile git have info about all of changes which have been made by you and other programmes. So, let's start...  
+<<<<<<< HEAD
 Best Git tutorial for Russian speakers - [link](https://practicum.yandex.ru/trainer/git-basics/lesson/c6b9607c-e8bc-4446-89f9-c74522c3492f/)  
+=======
+Best Git tutorial for Russian speakers - [link](https://practicum.yandex.ru/trainer/git-basics/lesson/c6b9607c-e8bc-4446-89f9-c74522c3492f/)
+>>>>>>> e4727335ddb60224f5ee31bc57c897f9c295cde0
 Markdown tips (md) - [link](https://www.markdownguide.org/cheat-sheet/)
 
 ## Begining  
