@@ -16,7 +16,7 @@ __*There are fist TERMINAL commands you need at start:*__
 * **cd** (change direction); cd~ - change direction to the home folder of user
 * **&&** - do several commands. Example: cd ~ && ls
 * **mkdir** - make a new direction (folder)
-* **rm** - remove file
+* **rm** - remove file  
 * **rm -r** -remove something + *r*ecursive (usually usus for non empty folders)
 * **rm -rf .git** - deleting git folder if something went wrong. -r - recursively (for deleting all content in folder); - force(u will spik windows like "are u sure u would like to delete this file")
 * **rmdir** - remove direction (folder)
@@ -33,15 +33,28 @@ __*There are fist TERMINAL commands you need at start:*__
 - **git status** - cheking for status of files and commit
 - **git add** -all, ., filename - preparing and adding your  all changed files, all in folder and certain file for beeing commited
 - **git commit -m** "message" - commit ypur pack of files to your repositoty with message wich desribing of commit
+eсли ввести git commit без флага -m, откроется редактор Vim. Чтобы выйти из него, нажмите клавишу Esc, наберите последовательность символов :q! и нажмите Enter.
 - **git commit --amend --no-edit** - edit your last commit without adding new. Be careful - your chash will be changed
 - **git commit --amend -m 'new message for the last commit'** - using this function you are able to change message of the last commit without adding new commit
 - **git branch** - openning list of all branches
-- **git checkout** "branch_name" - move to *bracnh_name* branch
-- **git checkout** "branch_name -D - deleting *bracnh_name* 
-- **git checkout** "branch_name -b - creating and moving to *bracnh_name*
-- **git remote add** origin "repository_link" - The command needs to pass two parameters: the name of the remote repository and its URL. Use the word origin as the name. And you copied the URL from the page of the remote repository.
+- **git branch <branch/._-name>** - creating a new branch 
+- **git branch -D <название_ветки>** - deleting branch after 
+- **git checkout -b <название_ветки>** - creating a new branch and instantly moving in this branch
+- **git checkout "branch_name"** - move to *bracnh_name* branch
+- **git checkout "branch_name -D** - deleting *bracnh_name* 
+- **git checkout "branch_name -b** - creating and moving to *bracnh_name*
+_ **git diff** - 
+- **git remote add** origin "repository_link" - The command needs to pass two parameters: the name of the remote repository and its URL. Use the word origin as the name. And you copied the URL from the page of the remote repository.  
+How to roll back if "everything is broken" | [link](https://practicum.yandex.ru/trainer/git-basics/lesson/78d6157b-a248-4c26-a2f8-5b7bdf270bc4/):
+- **git reset --hard <commit hash>** - "откатить" commit
+- **git restore --staged <file>** - deleting file from staged status (from being ready to be commited) after this func he will be untracked
+- **git restore <file>** - Может быть так, что вы случайно изменили файл, который не планировали. Теперь он отображается в Changes not staged for commit (modified). Чтобы вернуть всё «как было», можно выполнить команду  
+  
+**Working in team:**  
+- **git clone** - clone repositoru from server to your local repository
+- fork -(its a integrated) cloning another repository to yput github profile where u can change it and clone on your computer
 ---
-Creating SSH-key:
+**Creating SSH-key:**
 * **ssh-keygen -t ed25519** "your_mail_in_github@mail.com" - creating public and private key by using programm shh
 * **ssh-keygen -t rsa -b 4096** "your_mail_in_github@mail.com" - creating public and private key by using algorithm rsa
 ---
